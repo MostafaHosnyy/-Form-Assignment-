@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <F charset="utf-8">
+    <title>Form Sprints</title>
+</head>
+<body style=
+"background-color: #2E6E6E;">
+    <form action="" method="post">
+        <fieldset >
+            <legend>Personal Data</legend>
+            <fieldset >
+                <legend>Your Name</legend>
+                <br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="first_name">First Name:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="first_name" id="first_name" placeholder="Type Here" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="last_name">Second Name:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="last_name" id="last_name" placeholder="Type Here" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="phone_number">Your Phone</label>
+                        </td>
+                        <td>
+                            <input type="tel" name="phone_number" id="phone_number" minlength="10" maxlength="15">
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" name="email">
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                        </td>
+                        <td>
+                            <input type="password" id="password" name="password">
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="re_password">Rebeat Password</label>
+                        </td>
+                        <td>
+                            <input type="re_password" name="re_password" id="re_password">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <div>
+                <input type="radio" name="gender" id="male" value="male" />
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" name="gender" id="female" value="female" />
+                <label for="female">Female</label>
+            </div>
+            <br>
+            <div>
+                <input type="radio" name="student" id="student" value="student" />
+                <label for="student">Student</label>
+                 <br>
+                <input type="radio" name="Graduated" id="Graduated" value="Graduated" />
+                <label for="Graduated">Graduated</label>
+                <br>
+            </div>
+            <br>
+            <div>
+                <label for="university">University:</label>
+                <select name="university" id="university">
+                    <option value="auc">AUC</option>
+                    <option value="asu">ASU</option>
+                    <option value="zu">ZU</option>
+                    <option value="guc">GUC</option>
+                    <option value="cu">CU</option>
+                </select>
+            </div>
+        <br>
+<div><input type="submit" style="color: #000; background-color: white;"></div>
+</fieldset>
+    </form>
+</body>
+</html>
